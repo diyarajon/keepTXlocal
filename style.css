@@ -1,0 +1,80 @@
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    background: #83DECE;
+    color: #002868;
+}
+
+.heading h1{
+    text-shadow: #1B826F;
+}
+
+
+p{
+    font-family: 'Muli', sans-serif;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab box {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.9s;
+    color: #002868;
+    background-color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab box:hover {
+    background-color: #002868;
+    color: white;
+     background-image: url("....");
+}
+
+/* Create an active/current tablink class */
+.tab box.active {
+    background-color: #002868;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #002868;
+    color: white;
+    text-align: center;
+ }
+
+ .healine{
+     font-size: 15rem;
+ }
+
+.sub-headline{
+    font-size: 10rem;
+}
+
+
+.overflow{
+    height: 200vh;
+}
