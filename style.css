@@ -23,7 +23,7 @@ p{
 
 /* Style the buttons inside the tab */
 .tab button {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     border: 0;
     outline: none;
@@ -49,7 +49,7 @@ p{
 
 /* Style the tab content */
 .tabcontent {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Muli', sans-serif;
     text-align: center;
     display: none;
     padding: 6px 12px;
