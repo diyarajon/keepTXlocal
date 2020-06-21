@@ -9,6 +9,11 @@ body{
 
 .heading h1{
     text-shadow: #1B826F;
+    font-size: 30px;
+}
+
+.heading p{
+    font-size: 20px;
 }
 
 
@@ -81,17 +86,6 @@ p{
 
 .sub-headline{
     font-size: 10rem;
-}
-
-
-.parallax{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
 }
 
 
