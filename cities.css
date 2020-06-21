@@ -1,58 +1,8 @@
-body{
-    font-family: 'Muli', sans-serif;
-    background: #ebebd3;
-    text-align: center;
-}
-
 
 .hello h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-.heading{
-    line-height: 1.6;
-    padding: 1px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background-color: #f4d35e;
-}
-
-.heading h1{
-    color: #ee964b;
-    text-shadow: 3px 3px #083d77;
-    size: 40px;
-}
-
-.heading p{
-    color: #083d77;
-}
-
-h3 a{
-    padding: 1px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-.box:hover{
-    text-decoration: underline;
-    background-origin: padding-box;
-    border-bottom: 3px;
-    box-shadow: 5px 10px #f4d35e;
-}
-
-.cities a{
-    color: #083d77;
-    text-decoration: underline;
-    text-decoration-color: #083d77;
-}
-
-.options a{ 
-    color: #083d77;
-    text-decoration: underline;
-    text-decoration-color: #083d77;
-}
-
 
 body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -80,3 +30,97 @@ body {
     border-radius: 5px;
   }
 
+  body{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 40px;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    background: #FCE7BE;
+    color: #F95738;
+}
+
+.heading h1{
+    text-shadow: #1B826F;
+    font-size: 60px;
+}
+
+.heading p{
+    font-size: 20px;
+}
+
+
+p{
+    font-family: 'Muli', sans-serif;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    font-family: 'Muli', sans-serif;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.9s;
+    color: #F95738;
+    background-color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #F95738;
+    color: white;
+     background-image: url("....");
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #F95738;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F95738;
+    color: white;
+    text-align: center;
+ }
+
+ .hero{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+ }
+
+ .healine{
+     font-size: 15rem;
+ }
+
+.sub-headline{
+    font-size: 10rem;
+}
+
+
+.overflow{
+    height: 200vh;
+}
