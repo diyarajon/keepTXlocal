@@ -15,20 +15,23 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-
-.options h3{
-    display: grid;
-    height: 50vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: .2rem;
-}
-
-.box {
+.box{
     padding: 70px 0;
     text-align: center;
-    background-color: #f4d35e;
-    border-radius: 5px;
+    background-color: white;
   }
+
+  .box :hover{
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+    background-color: #F95738;
+  }
+
+
+
+
+
 
   body{
     font-family: 'Lobster', cursive;
