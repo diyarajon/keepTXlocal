@@ -29,7 +29,6 @@ body {
   body{
     font-family: 'Lobster', cursive;
     text-align: center;
-    padding-top: 40px;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     background: #FCE7BE;
     color: #F95738;
