@@ -8,7 +8,7 @@ body{
 }
 
 .heading h1{
-    text-shadow: #1B826F;
+    text-shadow: 2px 2px #1B826F;
     font-size: 60px;
 }
 
@@ -70,8 +70,6 @@ p{
     color: white;
     text-align: center;
  }
-
-
 
  .healine{
      font-size: 15rem;
