@@ -42,6 +42,7 @@ p{
 .tab button:hover {
     background-color: #F95738;
     color: white;
+    transition: 0.9s;
      background-image: url("....");
 }
 
