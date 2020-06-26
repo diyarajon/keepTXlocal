@@ -34,10 +34,18 @@ body {
     height: 50vh;
     grid-template-columns: 1fr 1fr;
     grid-gap: .2rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
 }
 
-.about{
+.about p{
     color: #002868;
+    text-align: left;
+}
+
+.title{
+    color: #F95738;
 }
 
   body{
