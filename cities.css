@@ -29,9 +29,11 @@ body {
     grid-gap: .2rem;
 }
 
-.about p{
+.about{
     display: grid;
+    height: 50vh;
     grid-template-columns: 1fr 1fr;
+    grid-gap: .2rem;
 }
 
     
