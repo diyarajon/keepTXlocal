@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #FCE7BE;
+    background: #fef9c7;
     text-align: center;
 }
 
@@ -15,17 +15,17 @@ body{
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #fef9c7;
 }
 
 .heading h1{
-    color: #F95738;
-    text-shadow: 3px 3px #083d77;
+    color: #026670;
+    text-shadow: 3px 3px #9fedd7;
     size: 40px;
 }
 
 .heading p{
-    color: #083d77;
+    color: #026670;
 }
 
 h3 a{
@@ -38,19 +38,19 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: 5px 10px #f4d35e;
+    box-shadow: 5px 10px #fce181;
 }
 
 .cities a{
-    color: #083d77;
-    text-decoration: underline;
-    text-decoration-color: #083d77;
+    text-decoration: none;
+    color: #026670;
+    text-decoration-color: #026670;
 }
 
 .options a{ 
-    color: #083d77;
+    color: #026670;
     text-decoration: underline;
-    text-decoration-color: #083d77;
+    text-decoration-color: #026670;
 }
 
 
