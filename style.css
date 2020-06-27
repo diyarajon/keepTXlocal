@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #a7d0ff;
+    background: #ffffff;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: 5px 10px #76b3f8;
+    box-shadow: 5px 10px #2086fa;
 }
 
 .cities a{
