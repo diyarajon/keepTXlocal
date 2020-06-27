@@ -1,85 +1,82 @@
 body{
-    font-family: 'Lobster', cursive;
+    font-family: 'Muli', sans-serif;
+    background: #ebebd3;
     text-align: center;
-    padding-top: 40px;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    background: #FCE7BE;
-    color: #F95738;
+}
+
+
+.hello h1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading{
+    line-height: 1.6;
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f4d35e;
 }
 
 .heading h1{
-    text-shadow: 2px 2px #002868;
-    font-size: 60px;
+    color: #ee964b;
+    text-shadow: 3px 3px #083d77;
+    size: 40px;
 }
 
 .heading p{
-    font-size: 20px;
+    color: #083d77;
+}
+
+h3 a{
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.box:hover{
+    text-decoration: underline;
+    background-origin: padding-box;
+    border-bottom: 3px;
+    box-shadow: 5px 10px #f4d35e;
+}
+
+.cities a{
+    color: #083d77;
+    text-decoration: underline;
+    text-decoration-color: #083d77;
+}
+
+.options a{ 
+    color: #083d77;
+    text-decoration: underline;
+    text-decoration-color: #083d77;
 }
 
 
-p{
-    font-family: 'Muli', sans-serif;
-}
-
-.tab {
-    overflow: hidden;
-    background-color: white;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    font-family: 'Muli', sans-serif;
+body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    color: #F95738;
-    background-color: white;
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  }
+
+.cities h3{
+    display: grid;
+    height: 30vh;
+    grid-template-columns: 1fr 1fr;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #F95738;
-    color: white;
-    transition: 0.9s;
-     background-image: url("....");
+
+.options h3{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .2rem;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #F95738;
-    color: white;
-}
-
-/* Style the tab content */
-.tabcontent {
-    font-family: 'Muli', sans-serif;
+.box {
+    padding: 70px 0;
     text-align: center;
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-}
+    background-color: #f4d35e;
+    border-radius: 5px;
+  }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #F95738;
-    color: white;
-    text-align: center;
- }
-
- .healine{
-     font-size: 15rem;
- }
-
-.sub-headline{
-    font-size: 10rem;
-}
-
-
-.overflow{
-    height: 200vh;
-}
