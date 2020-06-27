@@ -34,6 +34,9 @@ body {
     height: 50vh;
     grid-template-columns: 1fr 1fr;
     grid-gap: .2rem;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
 }
 
     
