@@ -41,6 +41,7 @@ body {
     background-color: white;
     color: #002868;
     font-size: large;
+    margin-top: 1em;
 }
 
     
@@ -115,6 +116,7 @@ p{
     color: #002868;
     text-align: left;
     font-family: 'Muli', sans-serif;
+    padding-left: 20px;
  }
 
 
