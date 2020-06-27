@@ -31,7 +31,6 @@ body {
 
 .about{
     display: grid;
-    height: 50vh;
     grid-template-columns: 1fr 1fr;
    
 }
