@@ -29,6 +29,16 @@ body {
     grid-gap: .2rem;
 }
 
+.about{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .2rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
 
   body{
     font-family: 'Lobster', cursive;
