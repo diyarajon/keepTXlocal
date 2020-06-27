@@ -75,7 +75,7 @@ p{
 /* Style the buttons inside the tab */
 .tab button {
     font-family: 'Muli', sans-serif;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: medium;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -116,6 +116,7 @@ p{
     color: #002868;
     text-align: left;
     font-family: 'Muli', sans-serif;
+    padding-left: 20px;
  }
 
 
