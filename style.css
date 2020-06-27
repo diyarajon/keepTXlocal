@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #ebebd3;
+    background: #a7d0ff;
     text-align: center;
 }
 
@@ -15,7 +15,7 @@ body{
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: #f4d35e;
+    background-color: #76b3f8;
 }
 
 .heading h1{
@@ -38,7 +38,7 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: 5px 10px #f4d35e;
+    box-shadow: 5px 10px #76b3f8;
 }
 
 .cities a{
@@ -76,7 +76,7 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: #f4d35e;
+    background-color: #76b3f8;
     border-radius: 5px;
   }
 
