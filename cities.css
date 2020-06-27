@@ -1,5 +1,6 @@
 body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    margin: 0px;
   }
 
 .cities h3{
@@ -111,7 +112,7 @@ p{
     bottom: 0;
     width: 100%;
     background-color: #F95738;
-    color: white;
+    color: #002868;
     text-align: left;
     font-family: 'Muli', sans-serif;
  }
