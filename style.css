@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #fef9c7;
+    background: #ebebd3;
     text-align: center;
 }
 
@@ -15,17 +15,17 @@ body{
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: #fef9c7;
+    background-color: #f4d35e;
 }
 
 .heading h1{
-    color: #026670;
-    text-shadow: 3px 3px #9fedd7;
+    color: #ee964b;
+    text-shadow: 3px 3px #083d77;
     size: 40px;
 }
 
 .heading p{
-    color: #026670;
+    color: #083d77;
 }
 
 h3 a{
@@ -38,19 +38,19 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: 5px 10px #fce181;
+    box-shadow: 5px 10px #f4d35e;
 }
 
 .cities a{
-    text-decoration: none;
-    color: #026670;
-    text-decoration-color: #026670;
+    color: #083d77;
+    text-decoration: underline;
+    text-decoration-color: #083d77;
 }
 
 .options a{ 
-    color: #026670;
+    color: #083d77;
     text-decoration: underline;
-    text-decoration-color: #026670;
+    text-decoration-color: #083d77;
 }
 
 
@@ -76,21 +76,7 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: #FCE7BE;
+    background-color: #f4d35e;
     border-radius: 5px;
   }
-
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #F95738;
-    color: #002868;
-    text-align: left;
-    font-family: 'Muli', sans-serif;
-    padding-left: 20px;
- }
-
 
