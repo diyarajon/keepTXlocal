@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #ebebd3;
+    background: #FCE7BE;
     text-align: center;
 }
 
@@ -15,11 +15,11 @@ body{
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background-color: #f4d35e;
+    background-color: white;
 }
 
 .heading h1{
-    color: #ee964b;
+    color: #F95738;
     text-shadow: 3px 3px #083d77;
     size: 40px;
 }
@@ -76,7 +76,21 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: #f4d35e;
+    background-color: #FCE7BE;
     border-radius: 5px;
   }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F95738;
+    color: #002868;
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    padding-left: 20px;
+ }
+
 
