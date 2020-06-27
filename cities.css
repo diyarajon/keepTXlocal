@@ -29,13 +29,12 @@ body {
     grid-gap: .2rem;
 }
 
-.about{
+.about p{
     display: grid;
     grid-template-columns: 1fr 1fr;
-   
 }
 
-
+    
   body{
     font-family: 'Lobster', cursive;
     text-align: center;
