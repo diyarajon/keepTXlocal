@@ -40,7 +40,7 @@ xmlhttp.onreadystatechange = function() {
     a.title = "This is Link";  
       
     // Set the href property. 
-    a.href = "https://www.geeksforgeeks.org";  
+    a.href = myObj.restaurant[i].website;  
       
     // Append the anchor element to the body. 
     innerDiv.prepend(a);  
