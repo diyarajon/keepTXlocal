@@ -9,7 +9,6 @@ xmlhttp.onreadystatechange = function() {
       var atext = document.createTextNode(`${myObj.restaurant[i].website}`);
       atag.appendChild(atext); 
       var aelement = document.getElementById(`block${myObj.restaurant[i].name}`);
-      aelement.appendChild(atag);
 
     var innerDiv = document.createElement('div');
     innerDiv.className = `block`;
