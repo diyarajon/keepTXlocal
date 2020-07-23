@@ -38,7 +38,8 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: 5px 10px #2086fa;
+    background-color: #083d77;
+    color: #ffffff;
 }
 
 .cities a{
@@ -89,6 +90,7 @@ background: none;
 
 
 .tab button {
+    font-family: 'Muli', sans-serif;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     border: 0;
     outline: none;
