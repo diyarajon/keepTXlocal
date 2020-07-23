@@ -4,21 +4,24 @@
             "name":"Asia Cafe",
             "dineIn": "yes" ,
             "takeout":"yes",
-            "giftCard":"yes"   
+            "giftCard":"yes",
+            "website":"http://www.asiacafetx.com/"   
         },
 
         {
             "name":"Contigo",
             "dineIn": "no" ,
             "takeout":"no",
-            "giftCard":"yes"   
+            "giftCard":"yes",
+            "website":"http://www.asiacafetx.com/"  
         },
 
         {
             "name":"RR Donuts",
             "dineIn": "yes" ,
             "takeout":"yes",
-            "giftCard":"no"   
+            "giftCard":"no",
+            "website":"http://www.asiacafetx.com/"  
         }
 ]
 }
