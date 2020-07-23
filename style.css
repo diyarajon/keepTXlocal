@@ -102,7 +102,6 @@ background: none;
 .tab button:hover {
     background-color: #002868;
     color: white;
-     background-image: url("....");
 }
 
 /* Create an active/current tablink class */
