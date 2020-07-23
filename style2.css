@@ -4,6 +4,14 @@ body{
     text-align: center;
 }
 
+.heading{
+    line-height: 1.6;
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #76b3f8;
+}
+
 
 body{
     display: grid;
