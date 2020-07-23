@@ -14,6 +14,7 @@ body{
 }
 
 .tab{
+    font-family: 'Muli', sans-serif;
     grid-column: span 2;
 }
 
