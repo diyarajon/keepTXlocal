@@ -18,6 +18,11 @@ body{
     grid-column: span 2;
 }
 
+.spacer p{
+    grid-column: span 2;
+    
+}
+
 
 .tab button {
     font-family: 'Muli', sans-serif;
