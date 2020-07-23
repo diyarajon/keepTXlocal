@@ -5,7 +5,7 @@ xmlhttp.onreadystatechange = function() {
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
     var innerDiv = document.createElement('div');
-    innerDiv.className = `block${myObj.restaurant[i].name}`;
+    innerDiv.className = `block`;
     innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
     var tagName = document.createElement("h1");
