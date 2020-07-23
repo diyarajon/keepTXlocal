@@ -1,7 +1,6 @@
 body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     margin: 0px;
-    <body style="background-color:#99ffcc; background-size:cover" background="https://images.unsplash.com/photo-1459111461138-7dc2df20e792?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"">
   }
 
 .cities h3{
