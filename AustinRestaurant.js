@@ -4,8 +4,16 @@ xmlhttp.onreadystatechange = function() {
     var myObj = JSON.parse(this.responseText);
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
+
+      var atag = document.createElement("a");
+      var atext = document.createTextNode(`${myObj.restaurant[i].website}`);
+      atag.appendChild(atext); 
+      var aelement = document.getElementById(`block${myObj.restaurant[i].name}`);
+      aelement.appendChild(atag);
+
     var innerDiv = document.createElement('div');
     innerDiv.className = `block`;
+    innerDiv.append(aelement);
     innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
     var tagName = document.createElement("h1");
@@ -20,12 +28,6 @@ xmlhttp.onreadystatechange = function() {
     var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
 
-
-    var atag = document.createElement("a");
-    var atext = document.createTextNode(`${myObj.restaurant[i].website}`);
-    atag.appendChild(atext); 
-    var aelement = document.getElementById(`block${myObj.restaurant[i].name}`);
-    aelement.appendChild(atag);
 
       }
     
