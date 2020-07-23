@@ -27,10 +27,23 @@ xmlhttp.onreadystatechange = function() {
     var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
 
-    baseURL = myObj.restaurant[i].website;
-function follow(item) {
-    location.href = baseURL + item.href;
-}
+    // Create anchor element. 
+    var a = document.createElement('a');  
+                  
+    // Create the text node for anchor element. 
+    var link = document.createTextNode("This is link"); 
+      
+    // Append the text node to anchor element. 
+    a.appendChild(link);  
+      
+    // Set the title. 
+    a.title = "This is Link";  
+      
+    // Set the href property. 
+    a.href = "https://www.geeksforgeeks.org";  
+      
+    // Append the anchor element to the body. 
+    document.body.prepend(a);  
 
 
       }
