@@ -1,0 +1,25 @@
+{
+    "restaurant":[
+        {
+            "name":"Asia Cafe",
+            "dineIn": "yes" ,
+            "takeout":"yes",
+            "giftCard":"yes"   
+        },
+
+        {
+            "name":"Contigo",
+            "dineIn": "no" ,
+            "takeout":"no",
+            "giftCard":"yes"   
+        },
+
+        {
+            "name":"RR Donuts",
+            "dineIn": "yes" ,
+            "takeout":"yes",
+            "giftCard":"no"   
+        }
+]
+}
+   
