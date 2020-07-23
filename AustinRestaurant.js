@@ -27,6 +27,11 @@ xmlhttp.onreadystatechange = function() {
     var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
 
+    baseURL = myObj.restaurant[i].website;
+function follow(item) {
+    location.href = baseURL + item.href;
+}
+
 
       }
     
