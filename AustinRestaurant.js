@@ -21,12 +21,6 @@ xmlhttp.onreadystatechange = function() {
     var elementName = document.getElementById(`block${myObj.restaurant[i].name}`);
     elementName.appendChild(tagName);
 
-    var tag = document.createElement("p");
-    var text = document.createTextNode(`takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`);
-    tag.appendChild(text); 
-    var element = document.getElementById(`block${myObj.restaurant[i].name}`);
-    element.appendChild(tag);
-
     // Create anchor element. 
     var a = document.createElement('a');  
                   
@@ -43,8 +37,13 @@ xmlhttp.onreadystatechange = function() {
     a.href = myObj.restaurant[i].website;  
       
     // Append the anchor element to the body. 
-    innerDiv.prepend(a);  
+    innerDiv.append(a);  
 
+    var tag = document.createElement("p");
+    var text = document.createTextNode(`takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`);
+    tag.appendChild(text); 
+    var element = document.getElementById(`block${myObj.restaurant[i].name}`);
+    element.appendChild(tag);
 
       }
     
