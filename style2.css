@@ -4,11 +4,6 @@ body{
     text-align: center;
 }
 
-h1{
-    grid-area: heading;
-    color: #002868;
-    text-shadow: 3px 3px #ffffff;
-}
 
 body{
     display: grid;
@@ -17,7 +12,6 @@ body{
 
 .hello{
     grid-column: span 2;
-
 }
 
 .block{
