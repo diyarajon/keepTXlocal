@@ -17,7 +17,7 @@ body{
     grid-column: span 2;
 }
 
-p {
+.block {
     font-family: 'Muli', sans-serif;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     border: 0;
@@ -29,6 +29,3 @@ p {
     margin: 1px;
 }
 
-.block {
-    background-color: #76b3f8;
-}
