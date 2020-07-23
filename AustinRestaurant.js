@@ -43,7 +43,7 @@ xmlhttp.onreadystatechange = function() {
     a.href = "https://www.geeksforgeeks.org";  
       
     // Append the anchor element to the body. 
-    document.body.prepend(a);  
+    innerDiv.prepend(a);  
 
 
       }
