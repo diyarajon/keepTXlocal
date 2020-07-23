@@ -22,7 +22,7 @@ xmlhttp.onreadystatechange = function() {
 
 
     var atag = document.createElement("a");
-    var atext = document.createTextNode(`website:${myObj.restaurant[i].wesbite}`);
+    var atext = document.createTextNode(`website:${myObj.restaurant[i].website}`);
     atag.appendChild(atext); 
     var aelement = document.getElementById(`block${myObj.restaurant[i].name}`);
     aelement.appendChild(atag);
