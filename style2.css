@@ -14,3 +14,15 @@ body{
     grid-column: span 2;
 }
 
+.block{
+    font-family: 'Muli', sans-serif;
+    border: 0;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    outline: none;
+    border-radius: 10px;
+    padding: 14px 16px;
+    color: #002868;
+    background-color: #76b3f8;
+    margin: 1px;
+}
+
