@@ -80,3 +80,9 @@ body {
     border-radius: 5px;
   }
 
+button
+{
+    padding: 0;
+border: none;
+background: none;
+}
