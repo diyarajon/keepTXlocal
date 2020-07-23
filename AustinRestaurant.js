@@ -12,7 +12,7 @@ xmlhttp.onreadystatechange = function() {
 
     var innerDiv = document.createElement('div');
     innerDiv.className = `block`;
-    innerDiv.click(atext);
+    innerDiv.click(myObj.restaurant[i].website);
     innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
     var tagName = document.createElement("h1");
