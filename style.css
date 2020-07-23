@@ -104,7 +104,7 @@ background: none;
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    transition: 0.9s;
+    transition: 0.4s;
     background-color: #002868;
     color: white;
 }
