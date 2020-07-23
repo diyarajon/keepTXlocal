@@ -25,6 +25,6 @@ xmlhttp.onreadystatechange = function() {
   }
 };
 
-xmlhttp.open("GET", "AustinRestaurant.json", true);
+xmlhttp.open("GET", "Austin\\AustinRestaurant.json", true);
 xmlhttp.send();
 
