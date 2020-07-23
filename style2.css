@@ -13,6 +13,10 @@ body{
     grid-column: span 2;
 }
 
+.tab{
+    grid-column: span 2;
+}
+
 
 .tab button {
     font-family: 'Muli', sans-serif;
