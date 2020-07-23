@@ -20,6 +20,13 @@ xmlhttp.onreadystatechange = function() {
     var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
 
+
+    var atag = document.createElement("a");
+    var atext = document.createTextNode(`website:${myObj.restaurant[i].wesbite}`);
+    atag.appendChild(atext); 
+    var aelement = document.getElementById(`block${myObj.restaurant[i].name}`);
+    aelement.appendChild(atag);
+
       }
     
   }
