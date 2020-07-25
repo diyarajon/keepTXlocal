@@ -135,6 +135,11 @@
             "name": "Mrs. Johnson's Bakery",
             "website": "https://mjbakery.com/",
             "takeout": "X"
+        },
+        {
+            "name": "Merit Coffee",
+            "website": "",
+            "takeout": "X"
         }
     ]
 }
