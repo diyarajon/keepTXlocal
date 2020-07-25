@@ -13,9 +13,11 @@ body{
     grid-column: span 2;
 }
 
-.tab{
-    font-family: 'Muli', sans-serif;
-    grid-column: span 2;
+button
+{
+    padding: 0;
+border: none;
+background: none;
 }
 
 
@@ -29,6 +31,7 @@ body{
     padding: 14px 16px;
     color: #002868;
     background-color: #76b3f8;
+    grid-column: span 2;
 }
 
 /* Change background color of buttons on hover */
@@ -42,7 +45,6 @@ body{
 .tab button.active {
     background-color: #002868;
     color: #76b3f8;
-    grid-column: span 2;
 }
 
 
