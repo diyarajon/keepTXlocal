@@ -1,0 +1,140 @@
+{
+    "shop":[
+        {
+            "name": "Asia Cafe",
+            "website": "http://www.asiacafetx.com/"
+        },
+        {
+            "name": "Contigo",
+            "website": "https://contigotexas.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Ski Shores Cafe",
+            "website": "https://skishoresaustin.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Home Slice Pizza",
+            "website": "https://homeslicepizza.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Olive & June",
+            "website": "http://oliveandjune-austin.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "China Family",
+            "website": "http://www.chinafamilytx.com/",
+            "takeout": "X",
+            "delivery": "X(grubhub)"
+        },
+        {
+            "name": "WaterLoo Ice House",
+            "website": "https://waterlooicehouse.com/",
+            "takeout": "X",
+            "delivery": "X(Favor)",
+            "giftCards": "X"
+        },
+        {
+            "name": "Zuzu Handmade Mexican Food",
+            "website": "https://www.zuzuaustin.com/",
+            "takeout": "X",
+            "delivery": "X(ezcater)"
+        },
+        {
+            "name": "Fonda San Miguel",
+            "website": "https://www.fondasanmiguel.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "Sour Duck Market",
+            "website": "https://www.sourduckmarket.com/",
+            "takeout": "X",
+            "delivery": "X(Favor)",
+            "giftCards": "X"
+        },
+        {
+            "name": "Odd Duck",
+            "website": "https://oddduckaustin.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "Launderette",
+            "website": "https://launderetteaustin.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "Dai Due",
+            "website": "https://www.daiduetaqueria.com/home",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Emmer & Rye",
+            "website": "https://emmerandrye.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Veracruz All Natural Food Truck",
+            "website": "https://www.veracruzallnatural.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "Swift's Attic",
+            "website": "https://swiftsattic.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "la Barbecue",
+            "website": "https://www.labarbecue.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Valentina's Tex Mex BBQ",
+            "website": "https://www.valentinastexmexbbq.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Hoover's Cooking",
+            "website": "https://www.hooverscooking.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Kemuri Tatsu-Ya",
+            "website": "https://kemuri-tatsuya.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Shady Grove",
+            "website": "https://theshadygrove.com/",
+            "takeout": "X",
+            "delivery": "X(Grubhub & Doordash)",
+            "giftCards": "X"
+        },
+        {
+            "name": "Olamaie",
+            "website": "https://olamaieaustin.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "Cypress Grill",
+            "website": "https://cypressgrill.net/",
+            "takeout": "X"
+        },
+        {
+            "name": "Franklin's BBQ",
+            "website": "https://cypressgrill.net/",
+            "takeout": "X"
+        }
+    ]
+}
+   
