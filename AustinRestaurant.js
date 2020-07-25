@@ -10,6 +10,7 @@ xmlhttp.onreadystatechange = function() {
     innerDiv.click(myObj.restaurant[i].website);
     innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
+    
     var tagName = document.createElement("h1");
     var textName = document.createTextNode(myObj.restaurant[i].name);
     tagName.appendChild(textName); 
@@ -44,5 +45,3 @@ xmlhttp.onreadystatechange = function() {
     
   }
 };
-
-
