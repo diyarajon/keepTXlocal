@@ -7,7 +7,6 @@ xmlhttp.onreadystatechange = function() {
 
     var innerDiv = document.createElement('div');
     innerDiv.className = `block`;
-    innerDiv.click(myObj.restaurant[i].website);
     innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
 
@@ -16,6 +15,7 @@ xmlhttp.onreadystatechange = function() {
     tagName.appendChild(textName); 
     var elementName = document.getElementById(`block${myObj.restaurant[i].name}`);
     elementName.appendChild(tagName);
+
 
     // Create anchor element. 
     var a = document.createElement('a');  
