@@ -1,0 +1,153 @@
+{
+    "shop":[
+        {
+            "name": "Balkin Cafe and grill",
+            "website": "https://www.balkancafeandgrill.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Square Peg Coffee Company",
+            "website": "https://squarepegatx.com/",
+            "takeout": "X",
+            "delivery": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Milano Cafe",
+            "website": "https://www.milanoaustin.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Pacha Cafe",
+            "website": "http://www.pachacafe.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Mozart's cafe",
+            "website": "https:
+            "takeout": "X",
+            "delivery": "X(delivery by multiple places)"
+        },
+        {
+            "name": "Cherrywood Coffeehouse",
+            "website": "http://cherrywoodcoffeehouse.com/",
+            "takeout": "X",
+            "delivery": "X(ChowNow)"
+        },
+        {
+            "name": "Sorrentos Coffee Drive Thru",
+            "website": "http://sorrentoscoffeedrivethru.com/",
+            "takeout": "X",
+            "delivery": "X(Favor)"
+        },
+        {
+            "name": "Cafe Creme",
+            "website": "https://cafecremeaustin.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Corona Coffee",
+            "website": "https://coronacoffee.co/"
+        },
+        {
+            "name": "Counter Cafe",
+            "website": "http://www.countercafe.com/",
+            "takeout": "X",
+            "delivery": "X"
+        },
+        {
+            "name": "Bouldin Creek Cafe",
+            "website": "http://bouldincreekcafe.com/",
+            "giftCards": "X"
+        },
+        {
+            "name": "Mary's Cafe",
+            "website": "https://maryscafeatx.com/",
+            "takeout": "X",
+            "delivery": "X(Uber Eats)"
+        },
+        {
+            "name": "1886 Cafe & Bakery",
+            "website": "https://driskillhotel.com/dining/1886-cafe-bakery/#maincontent",
+            "takeout": "X"
+        },
+        {
+            "name": "Phoebe's Diner",
+            "website": "https://www.phoebesdiner.com/",
+            "takeout": "X",
+            "delivery": "X(DoorDash)"
+        },
+        {
+            "name": "Elizabeth Street Cafe",
+            "website": "https://elizabethstreetcafe.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Quack's 43rd St Bakery",
+            "website": "http://www.quacksbakery.com/home",
+            "takeout": "X"
+        },
+        {
+            "name": "Moonlight Bakery",
+            "website": "https://www.moonlightbakery.com/index.html",
+            "takeout": "X"
+        },
+        {
+            "name": "Dream Bakery",
+            "website": "https://dreambakery.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Crema Bakery and Cafe",
+            "website": "https://cremabakerycafe.com/",
+            "takeout": "X",
+            "delivery": "X(Favor)"
+        },
+        {
+            "name": "Swedish Hill Bakery, Deli, Cafe",
+            "website": "https://swedishhillaustin.com/",
+            "takeout": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "La Mexicana Bakery",
+            "website": "http://lamexicanabakeryaustin.com/home.html"
+        },
+        {
+            "name": "CupPrimo",
+            "website": "https://www.cupprimo.com/",
+            "takeout": "X",
+            "delivery": "X(GrubHub, UberEats, Postmates, Favor"
+        },
+        {
+            "name": "Hey Cupcake",
+            "website": "https://heycupcake.com/",
+            "takeout": "X",
+            "delivery": "X"
+        },
+        {
+            "name": "Upper Crust Bakery",
+            "website": "https://www.uppercrustbakery.com/",
+            "takeout": "X"
+        },
+        {
+            "name": "Sweetness Bakery cafe",
+            "website": "http://www.sweetnessbakeryaustin.com/"
+        },
+        {
+            "name": "Capital City Bakery",
+            "website": "https://www.shopcapitalcitybakery.com/",
+            "takeout": "X",
+            "delivery": "X",
+            "giftCards": "X"
+        },
+        {
+            "name": "Mrs. Johnson's Bakery",
+            "website": "https://mjbakery.com/",
+            "takeout": "X"
+        }
+    ]
+}
+   
