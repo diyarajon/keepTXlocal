@@ -27,7 +27,7 @@ xmlhttp.onreadystatechange = function() {
     a.appendChild(link);  
       
     // Set the title. 
-    a.title = "This is Link";  
+    a.title = `${myObj.restaurant[i].name} website`;  
       
     // Set the href property. 
     a.href = myObj.restaurant[i].website;  
