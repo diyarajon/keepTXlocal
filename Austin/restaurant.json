@@ -129,6 +129,11 @@
             "name": "Cypress Grill",
             "website": "https://cypressgrill.net/",
             "takeout": "X"
+        },
+        {
+            "name": "Franklin's BBQ",
+            "website": "https://cypressgrill.net/",
+            "takeout": "X"
         }
     ]
 }
