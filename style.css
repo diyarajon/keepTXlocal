@@ -28,10 +28,10 @@ body{
     color: #083d77;
 }
 
-.about{
+/*.about{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+}*/
 
 h3 a{
     padding: 1px;
