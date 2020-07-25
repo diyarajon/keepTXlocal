@@ -28,6 +28,10 @@ body{
     color: #083d77;
 }
 
+.about{
+    grid-template-columns: 1fr 1fr;
+}
+
 h3 a{
     padding: 1px;
     margin-bottom: 20px;
