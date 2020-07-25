@@ -23,18 +23,6 @@
             "takeout": "X"
         },
         {
-            "name": "Mozart's cafe",
-            "website": "https:
-            "takeout": "X",
-            "delivery": "X(delivery by multiple places)"
-        },
-        {
-            "name": "Cherrywood Coffeehouse",
-            "website": "http://cherrywoodcoffeehouse.com/",
-            "takeout": "X",
-            "delivery": "X(ChowNow)"
-        },
-        {
             "name": "Sorrentos Coffee Drive Thru",
             "website": "http://sorrentoscoffeedrivethru.com/",
             "takeout": "X",
