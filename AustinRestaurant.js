@@ -5,11 +5,6 @@ xmlhttp.onreadystatechange = function() {
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
 
-      var atag = document.createElement("a");
-      var atext = document.createTextNode(`${myObj.restaurant[i].website}`);
-      atag.appendChild(atext); 
-      var aelement = document.getElementById(`block${myObj.restaurant[i].name}`);
-
     var innerDiv = document.createElement('div');
     innerDiv.className = `block`;
     innerDiv.click(myObj.restaurant[i].website);
@@ -21,6 +16,23 @@ xmlhttp.onreadystatechange = function() {
     var elementName = document.getElementById(`block${myObj.restaurant[i].name}`);
     elementName.appendChild(tagName);
 
+    // Create anchor element. 
+    var a = document.createElement('a');  
+                  
+    // Create the text node for anchor element. 
+    var link = document.createTextNode("This is link"); 
+      
+    // Append the text node to anchor element. 
+    a.appendChild(link);  
+      
+    // Set the title. 
+    a.title = "This is Link";  
+      
+    // Set the href property. 
+    a.href = myObj.restaurant[i].website;  
+      
+    // Append the anchor element to the body. 
+    innerDiv.append(a);  
 
     var tag = document.createElement("p");
     var text = document.createTextNode(`takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`);
