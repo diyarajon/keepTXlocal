@@ -10,7 +10,7 @@ xmlhttp.onreadystatechange = function() {
     innerDiv.click(myObj.restaurant[i].website);
     innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
-    
+
     var tagName = document.createElement("h1");
     var textName = document.createTextNode(myObj.restaurant[i].name);
     tagName.appendChild(textName); 
@@ -33,7 +33,7 @@ xmlhttp.onreadystatechange = function() {
     a.href = myObj.restaurant[i].website;  
       
     // Append the anchor element to the body. 
-    innerDiv.append(a);  
+    innerDiv.appendChild(a);  
 
     var tag = document.createElement("p");
     var text = document.createTextNode(`takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`);
