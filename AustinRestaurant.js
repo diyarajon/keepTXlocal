@@ -21,7 +21,7 @@ xmlhttp.onreadystatechange = function() {
     var a = document.createElement('a');  
                   
     // Create the text node for anchor element. 
-    var link = document.createTextNode("This is link"); 
+    var link = document.createTextNode(`${myObj.restaurant[i].name} website`); 
       
     // Append the text node to anchor element. 
     a.appendChild(link);  
